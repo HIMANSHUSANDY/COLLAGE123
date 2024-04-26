@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>using html and css create web to use collage form</title>
+    <link rel="stylesheet" href="style.css">
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+
+<body>
+    <section class="sub-header">
+
+        <nav class="index.html">
+            <a href="index.html"><img src="newlogo.png"></a>
+
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" oneclick="hideMenu()"></i>
+
+
+                <ul class="nav-item">
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="cource.html">course</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="contact.html">content</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" oneclick="showMenu()"></i>
+        </nav>
+        <h1>Contact us</h1>
+    </section>
+
+    <!-----aboutus ccontact ----->
+    <section class="location">
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14890.429896039639!2d79.12098225!3d21.088334149999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1705312481019!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+    </section>
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>hyz road,abc building</h5>
+                        <p>bangalore and karnatak</p>
+
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+1 8767492920</h5>
+                        <p>monday to saturday,10pm to 2pm</p>
+
+                    </span>
+                </div>
+
+
+                <div>
+                    <i class="fa fa-anvelope-o"></i>
+                    <span>
+                        <h5>sandyhimanshu9@gmail.com</h5>
+                        <p>emailus to your enquiry</p>
+
+                    </span>
+                </div>
+
+            </div>
+            <div class="contact-col"> </div>
+
+            <form action="formhandler.php" method="post">
+
+
+                <input type="text" name="name" placeholder="enter your name" required>
+
+                <input type="email" name="email" placeholder="enter your e mail" required>
+                <input type="name" name="name" placeholder="enter your name" required>
+
+                <input type="subject" name="subject" placeholder="enter your subject" required>
+
+
+                <textarea rows="8" name="message" placeholder="message" required></textarea>
+
+                <button type="submit" class="hero-btn red-btn">send message</button>
+
+            </form>
+
+        </div>
+    </section>
+
+    <!--footer-->
+    <section class="footer">
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Recusandae temporibus ab distinctio possimus officiis
+            harum at, modi laborum consequuntur eos fugiat
+            reiciendis molestiae. Asperiores illo blanditiis velit,
+            et accusamus amet.
+        </p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-telegram"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-solid fa-envelope"></i>
+        </div>
+        <p>made with <i class="fa-solid fa-heart"></i> BY EAST
+            TUTORIAL</p>
+    </section>
+
+    <div class=".sub-header" src="brijesh-anand-6eGxyrxTfD8-unsplash.jpg" alt>
+
+    </div>
+    <!-------java script for toggle menu-------->
+
+
+
+
+    <script>
+        var navLinks = document.getElementById("nav links");
+        function showMenu() {
+            navLinks.style.right = "0"
+        }
+
+        function hideMenu() {
+
+            navLinks.style.right = "-200px"
+
+        }
+    </script>
+</body>
+
+</html>
